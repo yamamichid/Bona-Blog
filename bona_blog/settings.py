@@ -175,6 +175,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # CKEditor Settings
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
+# CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 CKEDITOR_CONFIGS = {
     'default':
         {'toolbar': 'full',
@@ -185,8 +186,8 @@ CKEDITOR_CONFIGS = {
          ]),
          },
 }
-X_FRAME_OPTIONS = 'SAMEORIGIN'
-AWS_QUERYSTRING_AUTH = False
+# X_FRAME_OPTIONS = 'SAMEORIGIN'
+# AWS_QUERYSTRING_AUTH = False
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
