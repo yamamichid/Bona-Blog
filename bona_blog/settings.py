@@ -186,6 +186,7 @@ CKEDITOR_CONFIGS = {
          },
 }
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+AWS_QUERYSTRING_AUTH = False
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
