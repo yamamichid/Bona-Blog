@@ -19,6 +19,9 @@ django = "*"
 pyenchant = "*"
 django-ckeditor = "*"
 django-crispy-forms = "*"
+gunicorn = "*"
+django-heroku = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
